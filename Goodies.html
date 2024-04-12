@@ -2,14 +2,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>creamy do_nuts</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>creamy do_nuts</title>
     <link rel="stylesheet" href="style.css"> <!-- Include your stylesheet, if you have one -->
-</head>
-<body class="pink-background">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
 
-    <header>
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .product {
+    width: calc(23.33% - 30px); /* Calculate width for three products with margin */
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .product h2 {
+    margin-top: 10px;
+  }
+
+  .product p {
+    color: #666;
+  }
+
+  .product span {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .product button {
+    background-color: #66665d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .product button:hover {
+    background-color: #66665d;
+  }
+</style>
+</head>
+<center>
+<body class="pink-background">
+<header>
         <h1><center><big>Creamy DO_NUT'S</big></center></h1>
         <div class="search-container">
             <input type="text" id="search" placeholder="Search...">
@@ -22,43 +77,52 @@
              <button><a href="About us.html">About Us</a></button>
     </center></nav>
 	</header>
+<br><br>
+<p><b><big>Explore our delicious stuff and find the perfect treat for any occasion.</big></b></p>
+<br><br>
 
-    <main>
-        <div>
-            <p><span id="imageName">chocolate</span></p>
-            <img src="D:\IMAGES\choco.jpg";" alt="Image" width="400" class="amount-img">
-            <span class="amount">Rs150.00</span>
-        </div>
+<div class="donut-list">
+  <div class="donut">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG3FSjFh6QLG_1UK1neVWh3-4Y2VFQuvIhR6drVgfZDAFBLxd4o_2Onzy2ZhUdwqC5h0g&usqp=CAU" "alt="Earring 1"  width="400" class="amount-img">
+    <h2>Chocolate</h2>
+        <span>$200</span><br><br>
+    <button>Add to Cart</button>
+  </div><br><br>
+  <div class="donut">
+    <img src="https://dietitiandebbie.com/wp-content/uploads/2016/11/Pumpkin-Donuts-with-Maple-Glaze-400x400.jpg" alt="Earring 2"  width="400" class="amount-img">
+    <h2>Vennila galzedC</h2>
+   <span>$150</span><br><br>
+    <button>Add to Cart</button>
+  </div><br><br>
 
-        <div>
-            <p><span id="imageName">vennila glazed</span></p>
-            <img src="D:\IMAGES\venila glazed.jpg";" alt="Image" width="400" class="amount-img">
-            <span class="amount">Rs150.00</span>
-        </div>
+  <div class="donut">
+    <img src="https://www.tosimplyinspire.com/wp-content/uploads/2023/09/Maple-Donuts-13.jpg" alt="Earring 3"  width="400" class="amount-img">
+    <h2>Coconut maple</h2>
+    <span>$150</span><br><br>
+    <button>Add to Cart</button>
+  </div><br><br>
 
-        <div>
-            <p><span id="imageName">coconut maple </span></p>
-            <img src="D:\IMAGES\coconut maple.jpg";" alt="Image" width="400" class="amount-img">
-            <span class="amount">Rs200.00</span>
-        </div>
+<div class="donut">
+    <img src="https://www.allrecipes.com/thmb/lkmpKIBFPRbfATPBoR8E57KimqM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/45921-crispy-and-creamy-doughnuts-DDMFS-4x3-4266734872014eeebaeddbe56452e18d.jpg" alt="Earring "  width="400" class="amount-img">
+    <h2>Ceramel Tenter</h2>
+    <span>$100</span><br><br>
+    <button>Add to Cart</button>
+  </div><br><br>
 
-        <div>
-            <p><span id="imageName">ceramel</span></p>
-            <img src="D:\IMAGES\carameljpg.jpg";" alt="Image" width="400" class="amount-img">
-            <span class="amount">Rs125.00</span>
-        </div>
+<div class="donut">
+    <img src="https://images.squarespace-cdn.com/content/v1/5ad395ba36099b72e4432660/1532697456593-B5MEGHJWXU0JSCY79GR5/vegan-glazed-donuts.jpg" alt="Earring "  width="400" class="amount-img">
+    <h2>Flaffy vengan</h2>
+        <span>$250</span><br><br>
+    <button>Add to Cart</button>
+  </div><br><br>
 
-        <div>
-            <p><span id="imageName">pumpkin</span></p>
-            <img src="D:\IMAGES\pumkin.jpg";" alt="Image" width="400" class="amount-img">
-            <span class="amount">Rs170.00</span>
-        </div>
-
-        <div>
-            <p><span id="imageName">fluffy vegan</span></p>
-            <img src="D:\IMAGES\fluffy vegan.jpg";" alt="Image" width="400" class="amount-img">
-            <span class="amount">Rs180.00</span>
-        </div>
-    </main>
-</body>
+<div class="donut">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/glazed-donut-recipe-1-65008ab2b45fb.jpg?crop=1xw:1xh;center,top" alt="Earring "  width="400" class="amount-img">
+    <h2>Pumpkin pump</h2>
+    
+    <span>$159</span><br><br>
+    <button>Add to Cart</button>
+  </div>
+  </body>
+</center>
 </html>
